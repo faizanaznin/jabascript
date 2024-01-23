@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+#slider{
+    height: 100vh;
+    background-color: red;
+
+}
+#slider .btn{
+    width: 40px;
+    height: 10vh;
+    background-color: blueviolet;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+#slider .menu{
+    width: 0px;
+    height: 100vh;
+    background-color: bisque;
+    transition: 2s;
+
+}
+#slider .menu.active{
+    width: 500px;
+}
